@@ -84,4 +84,4 @@ SELECT
 FROM posts p
 INNER JOIN categories c
 ON p.cat_id = c.category_id
-WHERE c.category_name LIKE '%Công nghệ%';
+WHERE c.category_name = '%Công nghệ%';
